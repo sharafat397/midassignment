@@ -1,0 +1,263 @@
+.header{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    height:80px;
+    margin:10px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+}
+.t{
+    margin:7px;
+}
+.i img{
+    height:70px;
+    width:70px;
+}
+.header hr{
+    opacity: 0.75;
+}
+.header a{
+    text-decoration: none;
+    color:blue;
+}
+.h:hover{
+    color:red;
+}
+.p:hover{
+    color:red;
+}
+.u:hover{
+    color:red;
+}
+.r:hover{
+    color:red;
+}
+.j:hover{
+    color:red;
+}
+.body{
+    height:700px;
+    
+}
+.c1{
+   height:700px;
+   background-image: url(https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/m-models/x5-m/gallery/exterior/BMW-MY23-X5M-Gallery-02.jpg);
+}
+.c2{
+    height:700px;
+    background-image: url(https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/all-electric/i7/sedan/gallery/exterior/BMW-MY23-i7-Gallery-05.jpg);
+ }
+ .c3{
+    height:700px;
+    background-image: url(https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2022/my23/i4/gran-coupe/gallery/exterior/BMW-MY23-i4-Gallery-02.jpg);
+ }
+.caption{
+    color:aliceblue;
+    padding-top: 450px;
+    padding-left: 40px;
+}
+.head{
+    color:whitesmoke;
+}
+.head:hover{
+    color:mediumturquoise;
+}
+.all{
+    margin-top: -7px;
+    background: hsla(221, 45%, 73%, 1);
+
+background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", endColorstr="#103783", GradientType=1 );
+}
+.cart{
+    color:white;
+    text-align: center;
+    border-width: thick;
+}
+.he:hover{
+    color:cyan;
+}
+.cart button{
+    margin-left: 80px;
+    width:200px;
+    background-color: aquamarine;
+}
+.cart button:hover{
+    margin-left: 80px;
+    width:200px;
+    background-color: green;
+    color:aliceblue
+}
+.he{
+    margin-top: 200px;
+    margin-left: 90px;
+}
+.cbody{
+    margin-left: 90px;
+    text-align: center;
+}
+.product{
+    display:flex;
+}
+.products{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.pi{
+    text-align: center;
+    color:white;
+}
+.pi:hover{
+    color:crimson;
+}
+.footer{
+    text-align: center;
+    background-color:#24193E;
+    color:white;
+}
+.upcoming{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,114,1) 35%, rgba(0,212,255,1) 100%);
+}
+.coming{
+    margin-top:-10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.card{
+    margin:30px;
+}
+.card:hover{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.service{
+    margin:20px;
+}
+.service h5{
+    margin:20px;
+}
+.services1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+   
+}
+
+.services2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+}
+.s1{
+    border-bottom: 2px solid green;
+}
+.s1:hover{
+    border-bottom: 2px solid red;
+}
+.s2{
+    border-left: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+.s4{
+    border-left: 2px solid green;
+}
+.sh h2{
+    text-align: center;
+    color:darkgreen;
+}
+.sh h2:hover{
+    color:cyan;
+}
+.saying{
+    text-align: center;
+    color:white;
+}
+.reviews{
+    background: hsla(185, 64%, 51%, 1);
+
+    background: linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(185, 64%, 51%, 1) 0%, hsla(277, 74%, 24%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#30C5D2", endColorstr="#471069", GradientType=1 );
+
+}
+.rev{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+
+}
+.card button{
+    background-color: darkseagreen;
+    height:40px;
+    width:80px;
+    border-radius: 10px 10px 10px 10px;
+    color: aliceblue;
+}
+.card button:hover{
+    background-color: green;
+    height:40px;
+    width:80px;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.card-body img{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+.card-body img:hover{
+    color:red;
+}
+.footer a{
+    text-decoration: none;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.links h3{
+    margin:10px;
+    color: cornsilk;
+}
+.links h3:hover{
+    color:aqua;
+}
+.links a{
+    color: white;
+}
+.links a:hover{
+    color: darkgreen;
+}
+.links img{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+}
+.end p{
+    margin-top: 10px;
+}
+.head{
+    text-align: center;
+    margin:5px;
+}
+
+
+
+
