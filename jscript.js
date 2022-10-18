@@ -1,4 +1,4 @@
-let car=0,cprice=0, tprice=0,dc=5000,dp=0,tp=0;
+let car=0,cprice=0, tprice=0,dc=5000,dp=0,tp=0,sp=10000;
 function addtocart(price)
 {
     car++;
@@ -47,13 +47,14 @@ function addtocart(price)
         dc=.005;
     }
     else {
-        dc=0;
+        dc=0.012;
     }
     dc=tprice*dc;
-    tprice=tprice+tp+dc;
+    tprice=tprice+tp+dc+sp;
     document.getElementById('cars').innerText=car;
     document.getElementById('cprice').innerText=cprice;
     document.getElementById('dp').innerText=dp;
+document.getElementById('sp').innerText=sp;
     document.getElementById('tp').innerText=tp;
     document.getElementById('dc').innerText=dc;
     document.getElementById('t').innerText=tprice;
