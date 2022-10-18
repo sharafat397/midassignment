@@ -1,4 +1,4 @@
-let car=0,cprice=0, tprice=0,dc=5000,dp=0,tp=0,sp=10000;
+let car=0,cprice=0, tprice=0,dc=5000,dp=0,tp=0,sp=0;
 function addtocart(price)
 {
     car++;
@@ -50,6 +50,7 @@ function addtocart(price)
         dc=0.012;
     }
     dc=tprice*dc;
+    sp=tprice*0.05;
     tprice=tprice+tp+dc+sp;
     document.getElementById('cars').innerText=car;
     document.getElementById('cprice').innerText=cprice;
